@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    outline: none;
+    text-align: center;
+}
+
+#employee-form .btn {
+    width: 15rem;
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+}
+
+tbody .btn {
+    width: 3rem;
+    display: block;
+    padding: 0.5rem;
+}
+
+table {
+    margin: 8rem auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #ebebeb;
+}
