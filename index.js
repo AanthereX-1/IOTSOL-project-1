@@ -23,8 +23,9 @@ class UI {
         <td>${employee.name}</td>
         <td>${employee.cnic}</td>
         <td>${employee.email}</td>
-        <td>${employee.shift}</td>
-        <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+        <td>${employee.shift}<label class="switch"><input type="checkbox"><span class="slider round"></span></label>
+        </td>
+        <td><a href="#" class="btn btn-danger btn-sm delete">x</a></td>
         `;
 
         list.appendChild(row);
